@@ -1,0 +1,75 @@
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-image: url(https://i.pinimg.com/originals/c8/4b/62/c84b62a7d81641e2d23af38d20aaa7fe.gif);
+  background-position: center;
+  background-repeat: repeat;
+  background-size: cover;
+  text-align: center;
+}
+
+.intro .rules {
+  align-items: center;
+}
+
+h1, h2 {color: #FFFAFA;
+  font-family: 'Warnes', cursive;
+
+}
+
+.letsGo{font-size: xx-large
+}
+ /* .intro, table { */
+  /* background-color: rgba(159, 233, 255, 0.76); */
+  /* opacity: 0.5; */
+
+
+
+/* .rules{background-color: rgba(159, 233, 255, 0.76); */
+/* opacity: 0.5; */
+/* }  */
+li {color: #ADFF2F;
+  font-family: 'Libre Barcode 39', cursive;
+}
+
+li:hover {font-family: 'Warnes', cursive;
+  font-size: xxx-large;
+}
+
+.gameBoard{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+table {
+  border: 2px purple solid;
+}
+
+td {
+  height: 200px;
+  width: 200px;
+}
+
+td img {
+  height: 200px;
+  width: 200px;
+}
+
+.winner {
+  visibility: hidden;
+}
+
+.lose {
+  visibility: hidden;
+}
+
+.footer{font-family: 'Libre Barcode 39', cursive;
+}
+
+.footer :hover {color: #FF8C00;
+  font-family: 'Warnes', cursive;
+  font-size: xxx-large;}
